@@ -1,7 +1,0 @@
-      - name: Dar permisos a gradlew
-        working-directory: MiApp
-        run: chmod +x ./gradlew
-
-      - name: Compilar APK debug
-        working-directory: MiApp
-        run: ./gradlew assembleDebug
